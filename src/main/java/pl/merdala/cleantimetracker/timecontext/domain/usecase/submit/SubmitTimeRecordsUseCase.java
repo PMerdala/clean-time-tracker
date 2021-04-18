@@ -5,8 +5,8 @@ import pl.merdala.cleantimetracker.annotation.UseCase;
 import pl.merdala.cleantimetracker.timecontext.domain.entity.TimeRecord;
 import pl.merdala.cleantimetracker.timecontext.domain.entity.TimeRecordStatus;
 import pl.merdala.cleantimetracker.timecontext.domain.port.out.QueryTasksPort;
-import pl.merdala.cleantimetracker.timecontext.domain.port.out.QueryTimeRecordsPort;
-import pl.merdala.cleantimetracker.timecontext.domain.port.out.SaveTimeRecordsPort;
+import pl.merdala.cleantimetracker.timecontext.domain.port.out.persistence.QueryTimeRecordsPort;
+import pl.merdala.cleantimetracker.timecontext.domain.port.out.persistence.SaveTimeRecordsPort;
 
 import java.time.LocalDate;
 import java.util.Collection;

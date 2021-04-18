@@ -5,9 +5,8 @@ import pl.merdala.cleantimetracker.timecontext.domain.entity.TimeRecord;
 import pl.merdala.cleantimetracker.timecontext.domain.entity.TimeRecordWithTask;
 import pl.merdala.cleantimetracker.timecontext.domain.entity.TimeTrackingTask;
 import pl.merdala.cleantimetracker.timecontext.domain.port.out.QueryTasksPort;
-import pl.merdala.cleantimetracker.timecontext.domain.port.out.QueryTimeRecordsPort;
+import pl.merdala.cleantimetracker.timecontext.domain.port.out.persistence.QueryTimeRecordsPort;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;

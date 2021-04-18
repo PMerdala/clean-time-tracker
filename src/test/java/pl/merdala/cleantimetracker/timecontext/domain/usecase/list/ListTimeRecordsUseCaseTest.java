@@ -9,7 +9,7 @@ import pl.merdala.cleantimetracker.timecontext.domain.entity.TimeRecord;
 import pl.merdala.cleantimetracker.timecontext.domain.entity.TimeRecordWithTask;
 import pl.merdala.cleantimetracker.timecontext.domain.entity.TimeTrackingTask;
 import pl.merdala.cleantimetracker.timecontext.domain.port.out.QueryTasksPort;
-import pl.merdala.cleantimetracker.timecontext.domain.port.out.QueryTimeRecordsPort;
+import pl.merdala.cleantimetracker.timecontext.domain.port.out.persistence.QueryTimeRecordsPort;
 import pl.merdala.cleantimetracker.timecontext.domain.usecase.testdata.TimeRecordTestData;
 import pl.merdala.cleantimetracker.timecontext.domain.usecase.testdata.TimeTrackingTaskTestData;
 

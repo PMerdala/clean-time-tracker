@@ -1,4 +1,4 @@
-package pl.merdala.cleantimetracker.timecontext.domain.port.out;
+package pl.merdala.cleantimetracker.timecontext.domain.port.out.persistence;
 
 import pl.merdala.cleantimetracker.timecontext.domain.entity.TimeRecord;
 

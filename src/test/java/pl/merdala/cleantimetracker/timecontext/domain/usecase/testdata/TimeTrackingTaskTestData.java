@@ -23,7 +23,7 @@ public class TimeTrackingTaskTestData {
                         .projectId(project_id)
                         .projectName(PREFIX_PROJECT_NAME + project_id)
                         .active(true)
-                        .invoiceAble(true)
+                        .invoiceable(true)
                         .build(),
                 TimeTrackingTask.builder()
                         .id(++task_id)
@@ -31,7 +31,7 @@ public class TimeTrackingTaskTestData {
                         .projectId(project_id)
                         .projectName(PREFIX_PROJECT_NAME + project_id)
                         .active(true)
-                        .invoiceAble(false)
+                        .invoiceable(false)
                         .build(),
                 TimeTrackingTask.builder()
                         .id(++task_id)
@@ -39,7 +39,7 @@ public class TimeTrackingTaskTestData {
                         .projectId(++project_id)
                         .projectName(PREFIX_PROJECT_NAME + project_id)
                         .active(false)
-                        .invoiceAble(true)
+                        .invoiceable(true)
                         .build(),
                 TimeTrackingTask.builder()
                         .id(++task_id)
@@ -47,7 +47,7 @@ public class TimeTrackingTaskTestData {
                         .projectId(project_id)
                         .projectName(PREFIX_PROJECT_NAME + project_id)
                         .active(false)
-                        .invoiceAble(false)
+                        .invoiceable(false)
                         .build()
         ).collect(Collectors.toList());
     }

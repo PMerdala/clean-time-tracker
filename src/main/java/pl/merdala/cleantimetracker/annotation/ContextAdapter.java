@@ -9,7 +9,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Service
-public @interface UseCase {
+public @interface ContextAdapter {
     @AliasFor(
             annotation = Service.class
     )

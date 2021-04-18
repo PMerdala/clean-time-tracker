@@ -1,17 +1,17 @@
 package pl.merdala.cleantimetracker.annotation;
 
 import org.springframework.core.annotation.AliasFor;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 import java.lang.annotation.*;
 
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-@Service
-public @interface UseCase {
+@Component
+public @interface Mapper {
     @AliasFor(
-            annotation = Service.class
+            annotation = Component.class
     )
     String value() default "";
 }

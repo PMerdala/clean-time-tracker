@@ -21,5 +21,5 @@ public class TimeTrackingTask {
 
     private Boolean active;
 
-    private Boolean invoiceAble;
+    private Boolean invoiceable;
 }
